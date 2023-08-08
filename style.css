@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Barlow:wght@200;300&family=Bellefair&family=Inter:wght@200&family=Libre+Baskerville:wght@700&family=Merienda&family=Noto+Sans+JP:wght@300&family=Noto+Sans:wght@200&family=Nunito:wght@200;300;400;500;600&family=Open+Sans:wght@300&family=Roboto+Mono:ital@1&family=Roboto:wght@300&family=Slabo+27px&family=Tinos&family=Ysabeau+Infant:ital,wght@1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: rgb(219, 219, 9); */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://t3.ftcdn.net/jpg/03/53/52/06/360_F_353520672_qduAJTb59pzBNOwjyrKn3GFbvc1rH94y.jpg);
+}
+nav{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+}
+.navcontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    text-indent: 10px;
+}
+.navcontent i{
+    font-size: 25px;
+    color: paleturquoise;
+}
+.navcontent p{
+    color: white;
+    font-size: 30px;
+}
+.logo img{
+    height: 55px;
+    border-radius: 19px;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    background-color: white;
+    height: 40px;
+    border: 1px solid black;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+.navlinks a{
+    color: black;
+    text-decoration: none;
+}
+.navlinks li{
+    list-style-type: none;
+}
+.navlinks a:hover{
+    color: rgb(63, 59, 117);
+    font-size: 19px;
+}
+.checkbtn{
+    color: white;
+    border: 1px solid white;
+    padding: 2px;
+    font-size: 20px;
+    display: none;
+}
+#check{
+    display: none;
+}
+.herocontainer{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/201/844/non_2x/abstract-background-with-black-and-yellow-color-combination-gold-color-combination-vector.jpg);   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heroimg img{
+    height: 300px;
+    border-radius: 170px;
+}
+.herosection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+.herocontent{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+.herocontent h1{
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: skyblue;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.herocontent p{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.aboutcontainer{
+    /* background-color: black; */
+    color: white;
+}
+h2{
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 3px 0;
+    /* background-color: rgb(112, 100, 133); */
+}
+.aboutsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+.aboutcontent p{
+    letter-spacing: 1px;
+    font-family: 'Noto Sans JP', sans-serif
+}
+.aboutcontent{
+    padding: 10px;
+    width: 50%;
+}
+.aboutcontent h3{
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(29, 101, 134);
+    width: 30%;
+    text-align: center;
+}
+.aboutimg img{
+    height: 300px;
+    border-radius: 30px;
+}
+.qualificationcontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardcontainer{
+    width: 90%;
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+.card{
+    background-color: black;
+    color: white;
+}
+.cardimg img{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 20px;
+}
+.cardcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 10px 0;font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+}
+.cardcontent h3{
+    font-size: 18px;
+    color: rgb(29, 101, 134);
+    padding: 5px 0;
+}
+.cardcontainer1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    gap: 2rem;
+    padding: 20px 0;
+    background-color: black;
+}
+.cardimg1 img{
+    aspect-ratio: 16/9;
+    object-fit: contain;
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 20px;
+}
+.skillsection{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardcontent1{
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.percentage{
+    width: 190px;
+    height: 5px;
+    background-color: red;
+    margin-left: 50px;
+}
+.card1 p{
+    padding: 5px 0;
+}
+.card1 h3{
+    padding: 5px 0;
+}
+.cardimg3 img{
+    height: 190px;
+}
+.cardimg4 img{
+    height: 250px;
+    padding: 0 20px 0 0;
+}
+.card2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px 0;
+}
+.cardcontainer2{
+    /* background-color: black; */
+    width: 100%;
+    padding: 20px 0;
+}
+.cardcontent2{
+    width: 55%;
+    padding: 0 20px;
+    font-family: 'Barlow', sans-serif;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.cardcontent2 p{
+    padding: 10px 0;
+}
+.cardheader h4{
+    text-align: center;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 25px;
+}
+.cardcontent2 button{
+    background-color: white;
+    font-size: 20px;
+    /* border-radius: 5px; */
+    border: 1px solid gold;
+    padding: 2px;
+}
+.cardcontent2 button:hover{
+    background-color: rgb(7, 241, 65);
+}
+.cardcontent2 button a{
+    text-decoration:none;
+    color: blue;
+}
+.formcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOatH5W6pP6Ljq8YmXF60qO8167tLq-pSUYQ&usqp=CAU); */
+    padding: 10px 0 15px 0;
+}
+.formsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/55832ca1e4b047816d3d9c8b/1485476550990-V03PI651MB9D6AQ5TO03/How-to-Protect-Your-Brain-from-Blue-Light-screen-filters-protection-glasses-app-bulb-sleep-bedroom?format=1000w);
+    background-position: center center;
+    width: 50%;
+    border: 2px solid blue;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+form{
+    padding: 45px 0 0 0;
+    margin: 20px;
+    width: 90%;
+    text-align: center;
+    color: white;
+    font-family: 'Slabo 27px', serif;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input[type="text"],input[type="email"],input[type="number"]{
+    width: 65%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+input[type="submit"]{
+    background-color: green;
+    height: 30px;
+    width: 150px;
+    border: 1px solid white;
+    color: black;
+    cursor: pointer;
+    margin-top: 15px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(28, 212, 28);
+}
+.formimg img{
+    height: 200px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    padding: 10px 0;
+}
+.social li{
+    list-style-type: none;
+}
+.social i{
+    font-size: 17px;
+    color: white;
+}
+.social i:hover{
+    color: skyblue;
+    font-size: 18px;
+}
+/* Responsive */
+
+@media (max-width:576px){
+    .navlinks{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        height: 170px;
+        top: 55px;
+        /* left: 25px; */
+        width: 100%;
+        background-color: black;
+        border: 2px solid black;
+    }
+    .navlinks li{
+        background-color: rgb(219, 219, 96);
+        height: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .checkbtn{
+        display: block;
+        margin-right: 20px;
+    }
+    #check:checked~ .navlinks{
+        display: flex;
+    }
+    .herosection{
+        flex-direction: column-reverse;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .aboutsection{
+        flex-direction: column;
+    }
+    .aboutimg img{
+        height: 270px;
+    }
+    .aboutcontent h3{
+        width: 100%;
+    }
+    .aboutcontent{
+        padding: 20px 0;
+        width: 100%;
+        text-align: center;
+    }
+    .card2{
+        flex-direction: column;
+    }
+    .cardcontent2{
+        padding: 0;
+        text-align: center;
+    }
+    .formsection{
+        width: 85%;
+        border: none;
+    }
+}
